@@ -1,12 +1,4 @@
 terraform {
-  cloud {
-    hostname = "ramit-fdo.tf-support.hashicorpdemo.com"
-    organization = "testDockerRuns"
-
-    workspaces {
-      name = "testWorkspace_kubernetes"
-    }
-  }
   required_providers {
     random = {
       source = "hashicorp/random"
